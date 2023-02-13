@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@1,300&display=swap" rel="stylesheet">
+  
+    <title>CV</title>
+    
+</head>
+<body>
+       <header>
+        <span>CURRICULUM VITAE</span>
+    </header>
+    <section>
+        <nav>
+            <img src="G:\celu moto\fotos\IMG_20210618_151039945.jpg" width="150" height="200" alt="">
+            <h2>Nombre : Roberto Miró</h2>
+            <h2>Edad : 45 </h2>
+            <h2>Provincia : Buenos Aires</h2>
+            <h2>Localidad : El Palomar</h2>
+            <h2>Email : <ul>rmiroehijos@hotmail.com</ul></h2>
+            <h2>Telefono : 1551541375      <img  src="https://cdn-icons-png.flaticon.com/512/124/124034.png?w=360"
+                alt="Whatsapp" width="25px" height="25px"  alt=""></h2>
+        </nav>
+        
+        <article>
+           <p>Estudios</p>
+         <li>Licenciatura en sistemas (Incompleto) <button type="button" id="bt1" onclick="mostrar('sys');">+info</button></li>
+        <div id="sys">
+       
+            <button  style="position: absolute; right: 50%;" onclick="ocultar( 'sys');">Ocultar</button>
+          Universidad de Morón (1999-2001)
+        </div>
+         <li>Traductorado Publico de Inglés (Incompleto)  <button  type="button" id="bt2" onclick="mostrar('trad');">+info</button></li>
+         <div id="trad">
+                    <button style="position: absolute; right: 50%;" onclick="ocultar('trad');">Ocultar</button>
+          Universidad de Morón (2004-2007)
+        </div>
+         <li>Diplomatura en Programación de dispositivos Android  <button id="bt3"  onclick="mostrar('and');">+info</button></li>
+         <div id="and">
+            <button  style="position: absolute; right: 40%;" onclick="ocultar('and');">Ocultar</button>
+           Universidad Tecnológica Nacional (2022) <br>
+           Android Studio, Kotlin, Java, Git
+        </div>
+          <li>Curso certificado de reparación de tv led <button id="bt4"  onclick="mostrar('tv');">+info</button></li>  
+          <div id="tv">
+            <button style="position: absolute; right: 30%;" onclick="ocultar('tv');">Ocultar</button>
+            Eprenda cursos de oficio (2020) Virtual <br>
+            Reparación de televisores tecnologia led, fuentes, placas mainboard, paneles, electrónica basica
+         
+        </div>
+          <li>Curso certificadode reparaciónde fuentes conmutadas <button id="bt5"  onclick="mostrar('fuen');">+info</button></li> 
+          <div id="fuen">
+            <button style="position: absolute; right: 30%;" onclick="ocultar('fuen');">Ocultar</button>
+           Eprenda cursos de oficio (2021) Virtual <br>
+            Reparación de fuentes de todo tipo, lectura de planos de placas PCB, electrónica avanzada 
+          </div>
+         <p>Actividad laboral</p>
+         <h1>Desde 1998 hasta actualidad:</h1>
+         <li>Distribuidora R. Miró e hijos (empresa familiar con mas de 50 años en el rubro) <button id="bt6"  onclick="mostrar('rm');">tareas</button></li>
+         <div id="rm">
+            <button style="position: absolute; right: 20%;" onclick="ocultar('rm');">Ocultar</button>
+             Distribución y logística, ventas, facturación (sistema propio), administración general, etc. <br>
+            IG : @dismiro2020</div>
+         <p>Otros inteseres</p>
+         <li>Aficionado a la soldadura
+            <li>Aficionado a la electrónica</li>
+            <li>Aficionado a la carpintería</li>
+            <li>Aficionado a la escritura, con un cuento publicado en un libro virtual <button id="bt7"  onclick="mostrar('lit');">Concurso Literiario MLZ</button></li>
+            <div id="lit">
+                <button  style="position: absolute; right: 45%;" onclick="ocultar('lit');">Ocultar</button>
+          Concurso literario de cuentos cortos(2022) <br>
+          Rotary Club Lomas de Zamora <br>
+          "El Niño Norte" <br>
+         <p ><a href="https://bit.ly/RotaryCuento22" > Concurso Literario de cuentos cortos <br> </a> </p> 
+    </div>
+            <li>Toda tarea manual, mental o que suponga un reto y pueda instruirme para realizar, es algo que siempre voy a estar dispuesto a hacer. </li>
+         </li>
+        </article>
+      </section>
+    
+      <script src="botones.js"></script>
+    
+</body>
+
+</html>

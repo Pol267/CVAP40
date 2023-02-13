@@ -1,0 +1,56 @@
+* {color: rgb(2, 2, 5);} 
+div {
+    color: red;
+    font-size: 20px;
+    display: none;
+}
+p {
+  color:dodgerblue ;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+header{
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 30pt;
+    border: 1px solid black;
+    margin: 30px;
+    padding: 30px 20px 15px 15px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+body{background-image: url('https://img.freepik.com/foto-gratis/trazo-pincel-beige-textura-fondo_53876-129531.jpg?w=1380&t=st=1676235167~exp=1676235767~hmac=ada9f3e8769844e6bc86411a8340744d69a2a811a8d1d54c6fe0ed7187741204');}
+body{background-position: center;}
+nav {
+    font-family: 'Gentium Book Plus', serif;
+    float: left;
+    width: 20%;
+    height:auto;
+    background: #ccc;
+    padding: 20px;
+    border-style: double;
+  }
+  article {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 18pt;
+    float: left;
+    padding: 20px;
+    width: 70%;
+   
+   
+  }
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  } 
+  
